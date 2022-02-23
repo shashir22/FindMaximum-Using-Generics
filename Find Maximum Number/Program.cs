@@ -14,6 +14,9 @@ namespace MaximumNumberGenerics
             double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(12.7, 20.47, 80.56);
             Console.WriteLine(doubleoutput);
 
+            string strigoutput = MaximumNumberCheck.MaximumStringNumber("111", "222", "333");
+            Console.WriteLine(strigoutput);
+
         }
     }
 }
