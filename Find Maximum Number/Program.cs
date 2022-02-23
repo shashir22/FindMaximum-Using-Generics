@@ -18,16 +18,17 @@ namespace MaximumNumberGenerics
             //Console.WriteLine(strigoutput);
 
             int[] intArray = { 112, 344, 432, 555, 678 };
-            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
-
+            GenericMaximum1<int> generic = new GenericMaximum1<int>(intArray);
+            generic.FindMaximum();
 
             double[] doubleArray = { 11.2, 34.4, 4.32, 55.5, 6.78 };
-            GenericMaximum<double> genericDouble = new GenericMaximum<double>(doubleArray);
+            GenericMaximum1<double> genericDouble = new GenericMaximum1<double>(doubleArray);
+            genericDouble.FindMaximum();
 
 
-            string[] stringArray = { "apple", "peach", "Banana", "Grapes" };
-            GenericMaximum<string> genericString = new GenericMaximum<string>(stringArray);
-
+            string[] stringArray = { "111", "222", "444", "888" };
+            GenericMaximum1<string> genericString = new GenericMaximum1<string>(stringArray);
+            genericString.FindMaximum();
             Console.ReadKey();
 
         }
